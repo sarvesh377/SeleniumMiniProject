@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-21T16:42:54Z" name="Default suite" finished-at="2022-09-21T16:43:26Z" duration-ms="32209">
+  <suite started-at="2022-10-03T16:59:20Z" name="Default suite" finished-at="2022-10-03T16:59:56Z" duration-ms="36600">
     <groups>
     </groups>
-    <test started-at="2022-09-21T16:42:54Z" name="Default test" finished-at="2022-09-21T16:43:26Z" duration-ms="32209">
+    <test started-at="2022-10-03T16:59:20Z" name="Default test" finished-at="2022-10-03T16:59:56Z" duration-ms="36600">
       <class name="demo.mvn.Navigatingtesting">
-        <test-method signature="test1()[pri:0, instance:demo.mvn.Navigatingtesting@73eb439a]" started-at="2022-09-21T16:42:54Z" name="test1" finished-at="2022-09-21T16:43:26Z" duration-ms="32086" status="PASS">
+        <test-method signature="test1()[pri:0, instance:demo.mvn.Navigatingtesting@73eb439a]" started-at="2022-10-03T16:59:20Z" name="test1" finished-at="2022-10-03T16:59:56Z" duration-ms="36485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="testclosure()[pri:0, instance:demo.mvn.Navigatingtesting@73eb439a]" started-at="2022-09-21T16:43:26Z" name="testclosure" finished-at="2022-09-21T16:43:26Z" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="testclosure()[pri:0, instance:demo.mvn.Navigatingtesting@73eb439a]" started-at="2022-10-03T16:59:56Z" name="testclosure" finished-at="2022-10-03T16:59:56Z" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testclosure -->

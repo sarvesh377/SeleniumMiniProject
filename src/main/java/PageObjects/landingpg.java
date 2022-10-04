@@ -15,11 +15,10 @@ public class landingpg {
 	{
 	 WebElement e = land.findElement(By.xpath("//a[contains(text(),'Log in')]"));
 	e.click();
-	//Thread.sleep(2000);
-	//e.findElement(By.xpath("//a[contains(text(),'Login')]")).click();
+	Thread.sleep(2000);
+	
 	
 	return e;
 	}
-	//span[contains(text(),'My Account')]
-	//a[contains(text(),'Login')]"
+	
 }

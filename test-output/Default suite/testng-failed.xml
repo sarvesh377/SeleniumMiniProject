@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.mvn.z2">
+      <class name="demo.mvn.Navigatingtesting">
         <methods>
-          <include name="test1"/>
           <include name="testclosure"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- demo.mvn.z2 -->
+      </class> <!-- demo.mvn.Navigatingtesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

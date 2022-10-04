@@ -1,5 +1,7 @@
 package demo.mvn;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -17,13 +19,10 @@ public class Navigatingtesting extends base {
 
 
 @Test
-	public void test1() throws InterruptedException {
-	//how we are able to call non static without object refernce?
-	base a = new base();
+	public void test1() throws InterruptedException, IOException {
 	
-	// webdriver is assign as datatype becoz contains method/data from webdriver thats y
-	  hello = a.browserLauncher();
-	 hello.get("https://demo.nopcommerce.com/");
+	  hello = browserLauncher();
+	 hello.get(prop.getProperty("url"));
 	 
 	 
 	 landingpg l= new landingpg(hello);
